@@ -1,0 +1,147 @@
+[0.041s] Invoking command in '/home/root/march_31_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8 SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/root/march_31_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/root/march_31_ws/install/px4_msgs
+[0.614s] -- The C compiler identification is GNU 7.5.0
+[1.036s] -- The CXX compiler identification is GNU 7.5.0
+[1.053s] -- Check for working C compiler: /usr/bin/cc
+[1.378s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.389s] -- Detecting C compiler ABI info
+[1.655s] -- Detecting C compiler ABI info - done
+[1.669s] -- Detecting C compile features
+[2.473s] -- Detecting C compile features - done
+[2.532s] -- Check for working CXX compiler: /usr/bin/c++
+[2.798s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.807s] -- Detecting CXX compiler ABI info
+[3.079s] -- Detecting CXX compiler ABI info - done
+[3.113s] -- Detecting CXX compile features
+[4.189s] -- Detecting CXX compile features - done
+[4.197s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.291s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.292s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.573s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[4.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.613s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.811s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[4.852s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.995s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.122s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[7.950s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[8.613s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[8.668s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[8.669s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[8.670s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[8.721s] -- Found PythonExtra: .so  
+[8.959s] -- Configuring done
+[10.353s] -- Generating done
+[10.365s] -- Build files have been written to: /home/root/march_31_ws/build/px4_msgs
+[10.369s] Invoked command in '/home/root/march_31_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8 SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/root/march_31_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/root/march_31_ws/install/px4_msgs
+[10.382s] Invoking command in '/home/root/march_31_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8 SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/root/march_31_ws/build/px4_msgs -- -j8 -l8
+[11.299s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.314s] [35m[1mScanning dependencies of target px4_msgs__cpp[0m
+[11.404s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.118s] Traceback (most recent call last):
+[14.131s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 40, in <module>
+[14.132s] Traceback (most recent call last):
+[14.133s]   File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 40, in <module>
+[14.134s] make[2]: *** Deleting file 'rosidl_generator_c/px4_msgs/msg/action_request.h'
+[14.136s]     sys.exit(main())
+[14.139s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 35, in main
+[14.140s]     sys.exit(main())
+[14.142s]   File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 35, in main
+[14.143s]     args.generator_arguments_file,
+[14.144s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 41, in generate_cpp
+[14.145s]     args.generator_arguments_file,
+[14.146s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 39, in generate_c
+[14.147s]     post_process_callback=prefix_with_bom_if_necessary)
+[14.147s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 91, in generate_files
+[14.148s]     post_process_callback=prefix_with_bom_if_necessary)
+[14.150s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[14.150s] make[2]: *** Deleting file 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp'
+[14.151s]     idl_file = parse_idl_file(locator)
+[14.152s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[14.153s]     post_process_callback=post_process_callback)
+[14.153s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[14.153s]     interpreter.string(template_content, template_path, locals=data)
+[14.153s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string
+[14.154s]     content = parse_idl_string(string, png_file=png_file)
+[14.154s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[14.154s]     tree = get_ast_from_idl_string(idl_string)
+[14.154s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[14.154s]     return _parser.parse(idl_string)
+[14.155s]   File "/usr/local/lib/python3.6/dist-packages/lark/lark.py", line 658, in parse
+[14.155s]     return self.parser.parse(text, start=start, on_error=on_error)
+[14.155s]   File "/usr/local/lib/python3.6/dist-packages/lark/parser_frontends.py", line 104, in parse
+[14.155s]     self.safe(scanner, True, locals)
+[14.155s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe
+[14.155s]     return self.parser.parse(stream, chosen_start, **kw)
+[14.155s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley.py", line 305, in parse
+[14.156s]     return transformer.transform(solutions[0])
+[14.156s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 401, in transform
+[14.156s]     self.parse(scanner, locals)
+[14.156s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2421, in parse
+[14.156s]     self.visit(root)
+[14.156s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 537, in visit
+[14.156s]     self.prioritizer.visit(root)
+[14.156s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 361, in visit
+[14.157s]     next_node = vsni(current)
+[14.157s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 478, in visit_symbol_node_in
+[14.157s]     token.run(self, locals)
+[14.157s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1547, in run
+[14.157s]     return iter(node.children)
+[14.157s]   File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 91, in children
+[14.157s]     return sorted(self._children, key=attrgetter('sort_key'))
+[14.157s] KeyboardInterrupt
+[14.157s]     self.subrun(info[0][1], interpreter, locals)
+[14.157s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1631, in subrun
+[14.158s]     token.run(interpreter, locals)
+[14.158s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1425, in run
+[14.158s]     interpreter.execute(self.code, locals)
+[14.158s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2596, in execute
+[14.158s]     _exec(statements, self.globals, locals)
+[14.158s]   File "<string>", line 5, in <module>
+[14.158s]   File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[14.159s]     interpreter.string(content, str(template_path), kwargs)
+[14.160s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string
+[14.160s]     self.safe(scanner, True, locals)
+[14.160s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe
+[14.160s]     self.parse(scanner, locals)
+[14.160s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2417, in parse
+[14.160s]     token = scanner.one()
+[14.160s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one
+[14.161s]     token.scan(self)
+[14.161s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1468, in scan
+[14.161s]     self.subscan(scanner, self.type)
+[14.161s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1483, in subscan
+[14.161s]     token = scanner.one()
+[14.161s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one
+[14.161s]     token.scan(self)
+[14.161s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1456, in scan
+[14.161s]     i = scanner.complex('[', ']', 0)
+[14.162s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1893, in complex
+[14.162s]     newQuote = self.check(i, quote)
+[14.162s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1766, in check
+[14.162s]     if self[i] in '\'\"':
+[14.162s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 1682, in __getitem__
+[14.162s]     def __getitem__(self, index):
+[14.162s] KeyboardInterrupt
+[14.162s] Exception ignored in: <bound method Interpreter.__del__ of <empy pseudomodule/interpreter at 0x7f8fad7390>>
+[14.162s] Traceback (most recent call last):
+[14.163s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2094, in __del__
+[14.163s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2157, in shutdown
+[14.163s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2647, in finalize
+[14.163s]   File "/usr/local/lib/python3.6/dist-packages/em.py", line 2200, in push
+[14.163s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[14.165s] CMakeFiles/px4_msgs__cpp.dir/build.make:1550: recipe for target 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp' failed
+[14.167s] make[2]: *** [rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Error 1
+[14.168s] make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+[14.168s] CMakeFiles/Makefile2:175: recipe for target 'CMakeFiles/px4_msgs__cpp.dir/all' failed
+[14.168s] CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:320: recipe for target 'rosidl_generator_c/px4_msgs/msg/action_request.h' failed
+[14.169s] make[2]: *** [rosidl_generator_c/px4_msgs/msg/action_request.h] Error 1
+[14.169s] CMakeFiles/Makefile2:394: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/all' failed
+[14.169s] make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt
+[14.170s] Makefile:140: recipe for target 'all' failed
+[14.170s] make: *** [all] Interrupt
+[14.184s] Invoked command in '/home/root/march_31_ws/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8 SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/root/march_31_ws/build/px4_msgs -- -j8 -l8

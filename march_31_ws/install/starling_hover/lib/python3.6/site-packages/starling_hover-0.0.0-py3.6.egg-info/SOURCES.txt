@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/starling_hover/starling_hover.egg-info/PKG-INFO
+../../build/starling_hover/starling_hover.egg-info/SOURCES.txt
+../../build/starling_hover/starling_hover.egg-info/dependency_links.txt
+../../build/starling_hover/starling_hover.egg-info/entry_points.txt
+../../build/starling_hover/starling_hover.egg-info/requires.txt
+../../build/starling_hover/starling_hover.egg-info/top_level.txt
+../../build/starling_hover/starling_hover.egg-info/zip-safe
+resource/starling_hover
+starling_hover/__init__.py
+starling_hover/hover.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

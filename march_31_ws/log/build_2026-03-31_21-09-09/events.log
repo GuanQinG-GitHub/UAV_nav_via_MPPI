@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.001518] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.002518] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.002675] (-) JobUnselected: {'identifier': 'starling_hover'}
+[0.002810] (-) EventReactorShutdown: {}

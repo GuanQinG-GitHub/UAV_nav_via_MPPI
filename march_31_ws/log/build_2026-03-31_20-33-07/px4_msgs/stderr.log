@@ -1,0 +1,97 @@
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 40, in <module>
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 40, in <module>
+make[2]: *** Deleting file 'rosidl_generator_c/px4_msgs/msg/action_request.h'
+    sys.exit(main())
+  File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 35, in main
+    sys.exit(main())
+  File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 35, in main
+    args.generator_arguments_file,
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 41, in generate_cpp
+    args.generator_arguments_file,
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 39, in generate_c
+    post_process_callback=prefix_with_bom_if_necessary)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 91, in generate_files
+    post_process_callback=prefix_with_bom_if_necessary)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+make[2]: *** Deleting file 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp'
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    post_process_callback=post_process_callback)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+    return _parser.parse(idl_string)
+  File "/usr/local/lib/python3.6/dist-packages/lark/lark.py", line 658, in parse
+    return self.parser.parse(text, start=start, on_error=on_error)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parser_frontends.py", line 104, in parse
+    self.safe(scanner, True, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe
+    return self.parser.parse(stream, chosen_start, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley.py", line 305, in parse
+    return transformer.transform(solutions[0])
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 401, in transform
+    self.parse(scanner, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2421, in parse
+    self.visit(root)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 537, in visit
+    self.prioritizer.visit(root)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 361, in visit
+    next_node = vsni(current)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 478, in visit_symbol_node_in
+    token.run(self, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1547, in run
+    return iter(node.children)
+  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 91, in children
+    return sorted(self._children, key=attrgetter('sort_key'))
+KeyboardInterrupt
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 5, in <module>
+  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+    interpreter.string(content, str(template_path), kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2417, in parse
+    token = scanner.one()
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1468, in scan
+    self.subscan(scanner, self.type)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1483, in subscan
+    token = scanner.one()
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one
+    token.scan(self)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1456, in scan
+    i = scanner.complex('[', ']', 0)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1893, in complex
+    newQuote = self.check(i, quote)
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1766, in check
+    if self[i] in '\'\"':
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1682, in __getitem__
+    def __getitem__(self, index):
+KeyboardInterrupt
+Exception ignored in: <bound method Interpreter.__del__ of <empy pseudomodule/interpreter at 0x7f8fad7390>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2094, in __del__
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2647, in finalize
+  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+make[2]: *** [rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Error 1
+make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+make[2]: *** [rosidl_generator_c/px4_msgs/msg/action_request.h] Error 1
+make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt
+make: *** [all] Interrupt

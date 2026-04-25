@@ -1,0 +1,24 @@
+[0.764s] Invoking command in '/home/root/march_31_ws/src/starling_hover': PYTHONPATH=/home/root/march_31_ws/build/starling_hover/prefix_override:/usr/local/lib/python3.6/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/starling_hover build --build-base /home/root/march_31_ws/build/starling_hover/build install --record /home/root/march_31_ws/build/starling_hover/install.log --install-scripts $base/lib/starling_hover --single-version-externally-managed install_data
+[1.052s] running egg_info
+[1.053s] writing ../../build/starling_hover/starling_hover.egg-info/PKG-INFO
+[1.054s] writing dependency_links to ../../build/starling_hover/starling_hover.egg-info/dependency_links.txt
+[1.054s] writing entry points to ../../build/starling_hover/starling_hover.egg-info/entry_points.txt
+[1.057s] writing requirements to ../../build/starling_hover/starling_hover.egg-info/requires.txt
+[1.059s] writing top-level names to ../../build/starling_hover/starling_hover.egg-info/top_level.txt
+[1.096s] reading manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'
+[1.120s] writing manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'
+[1.120s] running build
+[1.121s] running build_py
+[1.121s] copying starling_hover/hover.py -> /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover
+[1.124s] running install
+[1.125s] running install_lib
+[1.126s] copying /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover/hover.py -> /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover
+[1.126s] byte-compiling /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover/hover.py to hover.cpython-36.pyc
+[1.127s] running install_data
+[1.127s] running install_egg_info
+[1.128s] removing '/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover-0.0.0-py3.6.egg-info' (and everything under it)
+[1.128s] Copying ../../build/starling_hover/starling_hover.egg-info to /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover-0.0.0-py3.6.egg-info
+[1.129s] running install_scripts
+[1.132s] Installing hover script to /home/root/march_31_ws/install/starling_hover/lib/starling_hover
+[1.133s] writing list of installed files to '/home/root/march_31_ws/build/starling_hover/install.log'
+[1.168s] Invoked command in '/home/root/march_31_ws/src/starling_hover' returned '0': PYTHONPATH=/home/root/march_31_ws/build/starling_hover/prefix_override:/usr/local/lib/python3.6/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/starling_hover build --build-base /home/root/march_31_ws/build/starling_hover/build install --record /home/root/march_31_ws/build/starling_hover/install.log --install-scripts $base/lib/starling_hover --single-version-externally-managed install_data

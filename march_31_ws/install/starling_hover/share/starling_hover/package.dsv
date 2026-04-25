@@ -1,0 +1,6 @@
+source;share/starling_hover/hook/pythonpath.ps1
+source;share/starling_hover/hook/pythonpath.dsv
+source;share/starling_hover/hook/pythonpath.sh
+source;share/starling_hover/hook/ament_prefix_path.ps1
+source;share/starling_hover/hook/ament_prefix_path.dsv
+source;share/starling_hover/hook/ament_prefix_path.sh

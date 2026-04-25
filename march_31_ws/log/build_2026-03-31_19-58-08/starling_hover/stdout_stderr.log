@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/starling_hover/starling_hover.egg-info
+writing ../../build/starling_hover/starling_hover.egg-info/PKG-INFO
+writing dependency_links to ../../build/starling_hover/starling_hover.egg-info/dependency_links.txt
+writing entry points to ../../build/starling_hover/starling_hover.egg-info/entry_points.txt
+writing requirements to ../../build/starling_hover/starling_hover.egg-info/requires.txt
+writing top-level names to ../../build/starling_hover/starling_hover.egg-info/top_level.txt
+writing manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'
+package init file 'starling_hover/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'
+writing manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/root/march_31_ws/build/starling_hover/build
+creating /home/root/march_31_ws/build/starling_hover/build/lib
+creating /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover
+copying starling_hover/hover.py -> /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover
+running install
+running install_lib
+creating /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover
+copying /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover/hover.py -> /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover
+byte-compiling /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover/hover.py to hover.cpython-36.pyc
+running install_data
+creating /home/root/march_31_ws/install/starling_hover/share/ament_index
+creating /home/root/march_31_ws/install/starling_hover/share/ament_index/resource_index
+creating /home/root/march_31_ws/install/starling_hover/share/ament_index/resource_index/packages
+copying resource/starling_hover -> /home/root/march_31_ws/install/starling_hover/share/ament_index/resource_index/packages
+copying package.xml -> /home/root/march_31_ws/install/starling_hover/share/starling_hover
+running install_egg_info
+Copying ../../build/starling_hover/starling_hover.egg-info to /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover-0.0.0-py3.6.egg-info
+running install_scripts
+Installing hover script to /home/root/march_31_ws/install/starling_hover/lib/starling_hover
+writing list of installed files to '/home/root/march_31_ws/build/starling_hover/install.log'

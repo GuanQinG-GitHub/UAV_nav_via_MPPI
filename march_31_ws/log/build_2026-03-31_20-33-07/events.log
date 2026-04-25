@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.001496] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001566] (starling_hover) JobQueued: {'identifier': 'starling_hover', 'dependencies': OrderedDict()}
+[0.001610] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/root/march_31_ws/install/px4_msgs')])}
+[0.001647] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.018159] (starling_hover) JobStarted: {'identifier': 'starling_hover'}
+[0.037010] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.037999] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/root/march_31_ws/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/root/march_31_ws/install/px4_msgs'], 'cwd': '/home/root/march_31_ws/build/px4_msgs', 'env': OrderedDict([('RAW_SET_UNDERLINE', '\\[\\e[4m\\]'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;1:ow=34;1:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.ipk=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/image_transport/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib'), ('RAW_CLR_YLW', '\\[\\e[33m\\]'), ('SSH_CONNECTION', '192.168.1.2 56150 192.168.1.233 22'), ('DISABLE_WRAP', '\\033[?7l'), ('RAW_CLR_BKG_WHT', '\\[\\e[107m\\]'), ('AMENT_PREFIX_PATH', '/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8:/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy'), ('CLR_GRN', '\\033[32m'), ('LANG', 'C.UTF-8'), ('CLR_LIT_BLU', '\\033[94m'), ('RAW_CLEAR_TERMINAL', '\\[\\ec\\]'), ('OLDPWD', '/home/root'), ('CLR_BKG_LIT_MAG', '\\033[105m'), ('ENABLE_WRAP', '\\033[?7h'), ('NUM_TRANSMITTER_CONFIGS', '9'), ('CLEAR_LINE', '\\033[2K'), ('RAW_CLR_BKG_LIT_RED', '\\[\\e[101m\\]'), ('SET_HIDDEN', '\\033[8m'), ('RAW_RESET_HIDDEN', '\\[\\e[28m\\]'), ('CLR_LIT_GRY', '\\033[37m'), ('CLR_LIT_GRN', '\\033[92m'), ('CLR_BKG_GRN', '\\033[42m'), ('RAW_CLR_LIT_RED', '\\[\\e[91m\\]'), ('CLR_BKG_LIT_CYN', '\\033[106m'), ('CLR_BKG_RED', '\\033[41m'), ('CLR_RED', '\\033[31m'), ('RAW_CLR_BKG_LIT_MAG', '\\[\\e[105m\\]'), ('XDG_SESSION_ID', 'c1'), ('USER', 'root'), ('NUM_EXTRAS_CONFIGS', '9'), ('CLR_LIT_YLW', '\\033[93m'), ('RAW_SET_HIDDEN', '\\[\\e[8m\\]'), ('CLEAR_TERMINAL', '\\033c'), ('CLR_BKG_MAG', '\\033[45m'), ('RAW_CLR_BKG_CYN', '\\[\\e[46m\\]'), ('RAW_CLR_BKG_MAG', '\\[\\e[45m\\]'), ('RAW_CLR_BLU', '\\[\\e[34m\\]'), ('RAW_CLR_WHT', '\\[\\e[97m\\]'), ('SET_BLINK', '\\033[5m'), ('CLR_BKG_WHT', '\\033[107m'), ('RAW_SET_INVERT', '\\[\\e[7m\\]'), ('RAW_CLR_BLK', '\\[\\e[30m\\]'), ('PWD', '/home/root/march_31_ws/build/px4_msgs'), ('COLCON', '1'), ('RAW_RESET_BOLD', '\\[\\e[21m\\]'), ('HOME', '/home/root'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8'), ('RAW_CLR_BKG_RED', '\\[\\e[41m\\]'), ('NUM_MODEM_CONFIGS', '25'), ('CLR_MAG', '\\033[35m'), ('RESET_BOLD', '\\033[21m'), ('SSH_CLIENT', '192.168.1.2 56150 22'), ('CLR_WHT', '\\033[97m'), ('RAW_RESET_UNDERLINE', '\\[\\e[24m\\]'), ('CLR_BKG_LIT_BLU', '\\033[104m'), ('RAW_ENABLE_WRAP', '\\[\\e[?7h\\]'), ('RAW_CLR_RESET', '\\[\\e[39m\\]'), ('CLR_BKG_LIT_RED', '\\033[101m'), ('RAW_RESET_ALL', '\\[\\e[0m\\]'), ('RAW_RESET_DIM', '\\[\\e[22m\\]'), ('COLCON_PREFIX_PATH', '/home/root/march_31_ws/install:/opt/ros/foxy:/opt/ros/foxy/mpa_to_ros2/install'), ('RAW_CLR_LIT_CYN', '\\[\\e[96m\\]'), ('SET_UNDERLINE', '\\033[4m'), ('CLR_BKG_LIT_YLW', '\\033[103m'), ('RAW_CLR_BKG_BLU', '\\[\\e[44m\\]'), ('RAW_CLR_BKG_RESET', '\\[\\e[49m\\]'), ('RAW_CLR_DRK_GRY', '\\[\\e[90m\\]'), ('CLR_BKG_LIT_GRN', '\\033[102m'), ('TSAN_OPTIONS', 'ignore_noninstrumented_modules=1'), ('RAW_CLR_BKG_YLW', '\\[\\e[43m\\]'), ('CLR_BKG_LIT_GRY', '\\033[47m'), ('RAW_CLR_BKG_BLK', '\\[\\e[40m\\]'), ('SKU_FILENAME', '/data/modalai/sku.txt'), ('RAW_DISABLE_WRAP', '\\[\\e[?7l\\]'), ('CLR_BKG_YLW', '\\033[43m'), ('CLR_BKG_RESET', '\\033[49m'), ('RAW_CLR_BKG_GRN', '\\[\\e[42m\\]'), ('RAW_CLR_BKG_LIT_YLW', '\\[\\e[103m\\]'), ('ROS_VERSION', '2'), ('SSH_TTY', '/dev/pts/0'), ('MAIL', '/var/mail/root'), ('RESET_HIDDEN', '\\033[28m'), ('CLR_RESET', '\\033[39m'), ('RAW_CLR_LIT_YLW', '\\[\\e[93m\\]'), ('SET_STRIKETHROUGH', '\\033[9m'), ('ROS_LOCALHOST_ONLY', '0'), ('SHELL', '/bin/bash'), ('TERM', 'linux'), ('RAW_RESET_BLINK', '\\[\\e[25m\\]'), ('CLR_LIT_MAG', '\\033[95m'), ('ROS_PYTHON_VERSION', '3'), ('NUM_VOXL_FAMILIES', '20'), ('RAW_CLR_RED', '\\[\\e[31m\\]'), ('RAW_CLR_MAG', '\\[\\e[35m\\]'), ('SET_INVERT', '\\033[7m'), ('RAW_CLR_BKG_LIT_BLU', '\\[\\e[104m\\]'), ('RESET_BLINK', '\\033[25m'), ('RAW_CLR_BKG_DRK_GRY', '\\[\\e[100m\\]'), ('RAW_CLR_LIT_MAG', '\\[\\e[95m\\]'), ('CLR_YLW', '\\033[33m'), ('RESET_DIM', '\\033[22m'), ('CLR_BKG_DRK_GRY', '\\033[100m'), ('RAW_CLR_BKG_LIT_CYN', '\\[\\e[106m\\]'), ('NUM_VOXL_BOARDS', '6'), ('SHLVL', '2'), ('CLR_LIT_RED', '\\033[91m'), ('PYTHONPATH', '/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib/python3.6/site-packages:/opt/ros/foxy/lib/python3.6/site-packages'), ('SET_DIM', '\\033[2m'), ('CLR_BLU', '\\033[34m'), ('RAW_SET_BOLD', '\\[\\e[1m\\]'), ('RAW_SET_STRIKETHROUGH', '\\[\\e[8m\\]'), ('RAW_SET_BLINK', '\\[\\e[5m\\]'), ('LOGNAME', 'root'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SET_BOLD', '\\033[1m'), ('CLR_BLK', '\\033[30m'), ('RAW_CLR_GRN', '\\[\\e[32m\\]'), ('CLR_CYN', '\\033[36m'), ('RAW_CLEAR_LINE', '\\[\\e[2K\\]'), ('RESET_INVERT', '\\033[27m'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('CLR_BKG_CYN', '\\033[46m'), ('RAW_CLR_LIT_GRY', '\\[\\e[37m\\]'), ('RAW_CLR_LIT_BLU', '\\[\\e[94m\\]'), ('FACTORY_FILENAME', '/data/modalai/factory_mode.txt'), ('CLR_DRK_GRY', '\\033[90m'), ('RAW_CLR_LIT_GRN', '\\[\\e[92m\\]'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('CLR_LIT_CYN', '\\033[96m'), ('CLR_BKG_BLK', '\\033[40m'), ('RESET_ALL', '\\033[0m'), ('RAW_CLR_BKG_LIT_GRY', '\\[\\e[47m\\]'), ('RAW_SET_DIM', '\\[\\e[2m\\]'), ('RAW_CLR_BKG_LIT_GRN', '\\[\\e[102m\\]'), ('RAW_CLR_CYN', '\\[\\e[36m\\]'), ('CLR_BKG_BLU', '\\033[44m'), ('RESET_UNDERLINE', '\\033[24m'), ('RAW_RESET_INVERT', '\\[\\e[27m\\]'), ('ROS_DISTRO', 'foxy'), ('ROS_HOME', '/opt/ros/foxy'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.100487] (-) TimerEvent: {}
+[0.201939] (-) TimerEvent: {}
+[0.303253] (-) TimerEvent: {}
+[0.404597] (-) TimerEvent: {}
+[0.506104] (-) TimerEvent: {}
+[0.607086] (-) TimerEvent: {}
+[0.614594] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.707357] (-) TimerEvent: {}
+[0.808561] (-) TimerEvent: {}
+[0.905214] (starling_hover) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/starling_hover', 'build', '--build-base', '/home/root/march_31_ws/build/starling_hover/build', 'install', '--record', '/home/root/march_31_ws/build/starling_hover/install.log', '--install-scripts', '$base/lib/starling_hover', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/root/march_31_ws/src/starling_hover', 'env': {'RAW_SET_UNDERLINE': '\\[\\e[4m\\]', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;1:ow=34;1:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.ipk=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LD_LIBRARY_PATH': '/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/image_transport/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib', 'RAW_CLR_YLW': '\\[\\e[33m\\]', 'SSH_CONNECTION': '192.168.1.2 56150 192.168.1.233 22', 'DISABLE_WRAP': '\\033[?7l', 'RAW_CLR_BKG_WHT': '\\[\\e[107m\\]', 'AMENT_PREFIX_PATH': '/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8:/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy', 'CLR_GRN': '\\033[32m', 'LANG': 'C.UTF-8', 'CLR_LIT_BLU': '\\033[94m', 'RAW_CLEAR_TERMINAL': '\\[\\ec\\]', 'OLDPWD': '/home/root', 'CLR_BKG_LIT_MAG': '\\033[105m', 'ENABLE_WRAP': '\\033[?7h', 'NUM_TRANSMITTER_CONFIGS': '9', 'CLEAR_LINE': '\\033[2K', 'RAW_CLR_BKG_LIT_RED': '\\[\\e[101m\\]', 'SET_HIDDEN': '\\033[8m', 'RAW_RESET_HIDDEN': '\\[\\e[28m\\]', 'CLR_LIT_GRY': '\\033[37m', 'CLR_LIT_GRN': '\\033[92m', 'CLR_BKG_GRN': '\\033[42m', 'RAW_CLR_LIT_RED': '\\[\\e[91m\\]', 'CLR_BKG_LIT_CYN': '\\033[106m', 'CLR_BKG_RED': '\\033[41m', 'CLR_RED': '\\033[31m', 'RAW_CLR_BKG_LIT_MAG': '\\[\\e[105m\\]', 'XDG_SESSION_ID': 'c1', 'USER': 'root', 'NUM_EXTRAS_CONFIGS': '9', 'CLR_LIT_YLW': '\\033[93m', 'RAW_SET_HIDDEN': '\\[\\e[8m\\]', 'CLEAR_TERMINAL': '\\033c', 'CLR_BKG_MAG': '\\033[45m', 'RAW_CLR_BKG_CYN': '\\[\\e[46m\\]', 'RAW_CLR_BKG_MAG': '\\[\\e[45m\\]', 'RAW_CLR_BLU': '\\[\\e[34m\\]', 'RAW_CLR_WHT': '\\[\\e[97m\\]', 'SET_BLINK': '\\033[5m', 'CLR_BKG_WHT': '\\033[107m', 'RAW_SET_INVERT': '\\[\\e[7m\\]', 'RAW_CLR_BLK': '\\[\\e[30m\\]', 'PWD': '/home/root/march_31_ws/build/starling_hover', 'COLCON': '1', 'RAW_RESET_BOLD': '\\[\\e[21m\\]', 'HOME': '/home/root', 'CMAKE_PREFIX_PATH': '/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy', 'RAW_CLR_BKG_RED': '\\[\\e[41m\\]', 'NUM_MODEM_CONFIGS': '25', 'CLR_MAG': '\\033[35m', 'RESET_BOLD': '\\033[21m', 'SSH_CLIENT': '192.168.1.2 56150 22', 'CLR_WHT': '\\033[97m', 'RAW_RESET_UNDERLINE': '\\[\\e[24m\\]', 'CLR_BKG_LIT_BLU': '\\033[104m', 'RAW_ENABLE_WRAP': '\\[\\e[?7h\\]', 'RAW_CLR_RESET': '\\[\\e[39m\\]', 'CLR_BKG_LIT_RED': '\\033[101m', 'RAW_RESET_ALL': '\\[\\e[0m\\]', 'RAW_RESET_DIM': '\\[\\e[22m\\]', 'COLCON_PREFIX_PATH': '/home/root/march_31_ws/install:/opt/ros/foxy:/opt/ros/foxy/mpa_to_ros2/install', 'RAW_CLR_LIT_CYN': '\\[\\e[96m\\]', 'SET_UNDERLINE': '\\033[4m', 'CLR_BKG_LIT_YLW': '\\033[103m', 'RAW_CLR_BKG_BLU': '\\[\\e[44m\\]', 'RAW_CLR_BKG_RESET': '\\[\\e[49m\\]', 'RAW_CLR_DRK_GRY': '\\[\\e[90m\\]', 'CLR_BKG_LIT_GRN': '\\033[102m', 'TSAN_OPTIONS': 'ignore_noninstrumented_modules=1', 'RAW_CLR_BKG_YLW': '\\[\\e[43m\\]', 'CLR_BKG_LIT_GRY': '\\033[47m', 'RAW_CLR_BKG_BLK': '\\[\\e[40m\\]', 'SKU_FILENAME': '/data/modalai/sku.txt', 'RAW_DISABLE_WRAP': '\\[\\e[?7l\\]', 'CLR_BKG_YLW': '\\033[43m', 'CLR_BKG_RESET': '\\033[49m', 'RAW_CLR_BKG_GRN': '\\[\\e[42m\\]', 'RAW_CLR_BKG_LIT_YLW': '\\[\\e[103m\\]', 'ROS_VERSION': '2', 'SSH_TTY': '/dev/pts/0', 'MAIL': '/var/mail/root', 'RESET_HIDDEN': '\\033[28m', 'CLR_RESET': '\\033[39m', 'RAW_CLR_LIT_YLW': '\\[\\e[93m\\]', 'SET_STRIKETHROUGH': '\\033[9m', 'ROS_LOCALHOST_ONLY': '0', 'SHELL': '/bin/bash', 'TERM': 'linux', 'RAW_RESET_BLINK': '\\[\\e[25m\\]', 'CLR_LIT_MAG': '\\033[95m', 'ROS_PYTHON_VERSION': '3', 'NUM_VOXL_FAMILIES': '20', 'RAW_CLR_RED': '\\[\\e[31m\\]', 'RAW_CLR_MAG': '\\[\\e[35m\\]', 'SET_INVERT': '\\033[7m', 'RAW_CLR_BKG_LIT_BLU': '\\[\\e[104m\\]', 'RESET_BLINK': '\\033[25m', 'RAW_CLR_BKG_DRK_GRY': '\\[\\e[100m\\]', 'RAW_CLR_LIT_MAG': '\\[\\e[95m\\]', 'CLR_YLW': '\\033[33m', 'RESET_DIM': '\\033[22m', 'CLR_BKG_DRK_GRY': '\\033[100m', 'RAW_CLR_BKG_LIT_CYN': '\\[\\e[106m\\]', 'NUM_VOXL_BOARDS': '6', 'SHLVL': '2', 'CLR_LIT_RED': '\\033[91m', 'PYTHONPATH': '/home/root/march_31_ws/build/starling_hover/prefix_override:/usr/local/lib/python3.6/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib/python3.6/site-packages:/opt/ros/foxy/lib/python3.6/site-packages', 'SET_DIM': '\\033[2m', 'CLR_BLU': '\\033[34m', 'RAW_SET_BOLD': '\\[\\e[1m\\]', 'RAW_SET_STRIKETHROUGH': '\\[\\e[8m\\]', 'RAW_SET_BLINK': '\\[\\e[5m\\]', 'LOGNAME': 'root', 'XDG_RUNTIME_DIR': '/run/user/0', 'SET_BOLD': '\\033[1m', 'CLR_BLK': '\\033[30m', 'RAW_CLR_GRN': '\\[\\e[32m\\]', 'CLR_CYN': '\\033[36m', 'RAW_CLEAR_LINE': '\\[\\e[2K\\]', 'RESET_INVERT': '\\033[27m', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'CLR_BKG_CYN': '\\033[46m', 'RAW_CLR_LIT_GRY': '\\[\\e[37m\\]', 'RAW_CLR_LIT_BLU': '\\[\\e[94m\\]', 'FACTORY_FILENAME': '/data/modalai/factory_mode.txt', 'CLR_DRK_GRY': '\\033[90m', 'RAW_CLR_LIT_GRN': '\\[\\e[92m\\]', 'PKG_CONFIG_PATH': '/opt/ros/foxy/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig', 'CLR_LIT_CYN': '\\033[96m', 'CLR_BKG_BLK': '\\033[40m', 'RESET_ALL': '\\033[0m', 'RAW_CLR_BKG_LIT_GRY': '\\[\\e[47m\\]', 'RAW_SET_DIM': '\\[\\e[2m\\]', 'RAW_CLR_BKG_LIT_GRN': '\\[\\e[102m\\]', 'RAW_CLR_CYN': '\\[\\e[36m\\]', 'CLR_BKG_BLU': '\\033[44m', 'RESET_UNDERLINE': '\\033[24m', 'RAW_RESET_INVERT': '\\[\\e[27m\\]', 'ROS_DISTRO': 'foxy', 'ROS_HOME': '/opt/ros/foxy', '_': '/usr/bin/env'}, 'shell': False}
+[0.911341] (-) TimerEvent: {}
+[1.037153] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.038108] (-) TimerEvent: {}
+[1.053636] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.138528] (-) TimerEvent: {}
+[1.156636] (starling_hover) StdoutLine: {'line': b'running egg_info\n'}
+[1.157353] (starling_hover) StdoutLine: {'line': b'writing ../../build/starling_hover/starling_hover.egg-info/PKG-INFO\n'}
+[1.162519] (starling_hover) StdoutLine: {'line': b'writing dependency_links to ../../build/starling_hover/starling_hover.egg-info/dependency_links.txt\n'}
+[1.164042] (starling_hover) StdoutLine: {'line': b'writing entry points to ../../build/starling_hover/starling_hover.egg-info/entry_points.txt\n'}
+[1.164869] (starling_hover) StdoutLine: {'line': b'writing requirements to ../../build/starling_hover/starling_hover.egg-info/requires.txt\n'}
+[1.165345] (starling_hover) StdoutLine: {'line': b'writing top-level names to ../../build/starling_hover/starling_hover.egg-info/top_level.txt\n'}
+[1.204559] (starling_hover) StdoutLine: {'line': b"reading manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'\n"}
+[1.205879] (starling_hover) StdoutLine: {'line': b"writing manifest file '../../build/starling_hover/starling_hover.egg-info/SOURCES.txt'\n"}
+[1.206640] (starling_hover) StdoutLine: {'line': b'running build\n'}
+[1.207266] (starling_hover) StdoutLine: {'line': b'running build_py\n'}
+[1.208025] (starling_hover) StdoutLine: {'line': b'copying starling_hover/hover.py -> /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover\n'}
+[1.208728] (starling_hover) StdoutLine: {'line': b'running install\n'}
+[1.209291] (starling_hover) StdoutLine: {'line': b'running install_lib\n'}
+[1.210059] (starling_hover) StdoutLine: {'line': b'copying /home/root/march_31_ws/build/starling_hover/build/lib/starling_hover/hover.py -> /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover\n'}
+[1.210621] (starling_hover) StdoutLine: {'line': b'byte-compiling /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover/hover.py to hover.cpython-36.pyc\n'}
+[1.211982] (starling_hover) StdoutLine: {'line': b'running install_data\n'}
+[1.212497] (starling_hover) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.214053] (starling_hover) StdoutLine: {'line': b"removing '/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.214872] (starling_hover) StdoutLine: {'line': b'Copying ../../build/starling_hover/starling_hover.egg-info to /home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages/starling_hover-0.0.0-py3.6.egg-info\n'}
+[1.217185] (starling_hover) StdoutLine: {'line': b'running install_scripts\n'}
+[1.239056] (-) TimerEvent: {}
+[1.241813] (starling_hover) StdoutLine: {'line': b'Installing hover script to /home/root/march_31_ws/install/starling_hover/lib/starling_hover\n'}
+[1.252918] (starling_hover) StdoutLine: {'line': b"writing list of installed files to '/home/root/march_31_ws/build/starling_hover/install.log'\n"}
+[1.287368] (starling_hover) CommandEnded: {'returncode': 0}
+[1.340240] (-) TimerEvent: {}
+[1.349276] (starling_hover) JobEnded: {'identifier': 'starling_hover', 'rc': 0}
+[1.378691] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.390183] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.440707] (-) TimerEvent: {}
+[1.542297] (-) TimerEvent: {}
+[1.645127] (-) TimerEvent: {}
+[1.655261] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.669961] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.745365] (-) TimerEvent: {}
+[1.846750] (-) TimerEvent: {}
+[1.948122] (-) TimerEvent: {}
+[2.049387] (-) TimerEvent: {}
+[2.150550] (-) TimerEvent: {}
+[2.258708] (-) TimerEvent: {}
+[2.360216] (-) TimerEvent: {}
+[2.461363] (-) TimerEvent: {}
+[2.474349] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.533242] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.562219] (-) TimerEvent: {}
+[2.663718] (-) TimerEvent: {}
+[2.765170] (-) TimerEvent: {}
+[2.798711] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.807099] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.865412] (-) TimerEvent: {}
+[2.966509] (-) TimerEvent: {}
+[3.071059] (-) TimerEvent: {}
+[3.079957] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.113540] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.171274] (-) TimerEvent: {}
+[3.272962] (-) TimerEvent: {}
+[3.375003] (-) TimerEvent: {}
+[3.476361] (-) TimerEvent: {}
+[3.578418] (-) TimerEvent: {}
+[3.680792] (-) TimerEvent: {}
+[3.781841] (-) TimerEvent: {}
+[3.894201] (-) TimerEvent: {}
+[3.995218] (-) TimerEvent: {}
+[4.097318] (-) TimerEvent: {}
+[4.190166] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.197501] (-) TimerEvent: {}
+[4.198450] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.273441] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[4.292931] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.297834] (-) TimerEvent: {}
+[4.398420] (-) TimerEvent: {}
+[4.499463] (-) TimerEvent: {}
+[4.570504] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[4.600046] (-) TimerEvent: {}
+[4.606807] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.613961] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.700320] (-) TimerEvent: {}
+[4.801361] (-) TimerEvent: {}
+[4.811690] (px4_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[4.852873] (px4_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.901693] (-) TimerEvent: {}
+[4.958742] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.996602] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.001829] (-) TimerEvent: {}
+[5.102816] (-) TimerEvent: {}
+[5.122556] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[5.203034] (-) TimerEvent: {}
+[5.304022] (-) TimerEvent: {}
+[5.405002] (-) TimerEvent: {}
+[5.509524] (-) TimerEvent: {}
+[5.610824] (-) TimerEvent: {}
+[5.711887] (-) TimerEvent: {}
+[5.812795] (-) TimerEvent: {}
+[5.913730] (-) TimerEvent: {}
+[6.016670] (-) TimerEvent: {}
+[6.117770] (-) TimerEvent: {}
+[6.218601] (-) TimerEvent: {}
+[6.320471] (-) TimerEvent: {}
+[6.421317] (-) TimerEvent: {}
+[6.522875] (-) TimerEvent: {}
+[6.627653] (-) TimerEvent: {}
+[6.729648] (-) TimerEvent: {}
+[6.831471] (-) TimerEvent: {}
+[6.932719] (-) TimerEvent: {}
+[7.033836] (-) TimerEvent: {}
+[7.134988] (-) TimerEvent: {}
+[7.236187] (-) TimerEvent: {}
+[7.337155] (-) TimerEvent: {}
+[7.438156] (-) TimerEvent: {}
+[7.539317] (-) TimerEvent: {}
+[7.640661] (-) TimerEvent: {}
+[7.747256] (-) TimerEvent: {}
+[7.856506] (-) TimerEvent: {}
+[7.950083] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.956913] (-) TimerEvent: {}
+[8.058855] (-) TimerEvent: {}
+[8.161095] (-) TimerEvent: {}
+[8.219816] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.288054] (-) TimerEvent: {}
+[8.388791] (-) TimerEvent: {}
+[8.489823] (-) TimerEvent: {}
+[8.490860] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.590125] (-) TimerEvent: {}
+[8.608142] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[8.613983] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.668876] (px4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[8.669829] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.670530] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[8.670985] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[8.690358] (-) TimerEvent: {}
+[8.722262] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.790594] (-) TimerEvent: {}
+[8.895377] (-) TimerEvent: {}
+[8.959115] (px4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.995357] (-) TimerEvent: {}
+[9.096619] (-) TimerEvent: {}
+[9.197679] (-) TimerEvent: {}
+[9.298964] (-) TimerEvent: {}
+[9.400208] (-) TimerEvent: {}
+[9.501456] (-) TimerEvent: {}
+[9.602777] (-) TimerEvent: {}
+[9.704085] (-) TimerEvent: {}
+[9.806514] (-) TimerEvent: {}
+[9.907638] (-) TimerEvent: {}
+[10.009064] (-) TimerEvent: {}
+[10.110840] (-) TimerEvent: {}
+[10.213506] (-) TimerEvent: {}
+[10.314780] (-) TimerEvent: {}
+[10.353527] (px4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[10.358905] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/root/march_31_ws/build/px4_msgs\n'}
+[10.367386] (px4_msgs) CommandEnded: {'returncode': 0}
+[10.373561] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[10.375740] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/root/march_31_ws/build/px4_msgs', '--', '-j8', '-l8'], 'cwd': '/home/root/march_31_ws/build/px4_msgs', 'env': OrderedDict([('RAW_SET_UNDERLINE', '\\[\\e[4m\\]'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;1:ow=34;1:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.ipk=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com/lib:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib:/opt/ros/foxy/mpa_to_ros2/install/image_transport/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager/lib:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib'), ('RAW_CLR_YLW', '\\[\\e[33m\\]'), ('SSH_CONNECTION', '192.168.1.2 56150 192.168.1.233 22'), ('DISABLE_WRAP', '\\033[?7l'), ('RAW_CLR_BKG_WHT', '\\[\\e[107m\\]'), ('AMENT_PREFIX_PATH', '/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8:/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy'), ('CLR_GRN', '\\033[32m'), ('LANG', 'C.UTF-8'), ('CLR_LIT_BLU', '\\033[94m'), ('RAW_CLEAR_TERMINAL', '\\[\\ec\\]'), ('OLDPWD', '/home/root'), ('CLR_BKG_LIT_MAG', '\\033[105m'), ('ENABLE_WRAP', '\\033[?7h'), ('NUM_TRANSMITTER_CONFIGS', '9'), ('CLEAR_LINE', '\\033[2K'), ('RAW_CLR_BKG_LIT_RED', '\\[\\e[101m\\]'), ('SET_HIDDEN', '\\033[8m'), ('RAW_RESET_HIDDEN', '\\[\\e[28m\\]'), ('CLR_LIT_GRY', '\\033[37m'), ('CLR_LIT_GRN', '\\033[92m'), ('CLR_BKG_GRN', '\\033[42m'), ('RAW_CLR_LIT_RED', '\\[\\e[91m\\]'), ('CLR_BKG_LIT_CYN', '\\033[106m'), ('CLR_BKG_RED', '\\033[41m'), ('CLR_RED', '\\033[31m'), ('RAW_CLR_BKG_LIT_MAG', '\\[\\e[105m\\]'), ('XDG_SESSION_ID', 'c1'), ('USER', 'root'), ('NUM_EXTRAS_CONFIGS', '9'), ('CLR_LIT_YLW', '\\033[93m'), ('RAW_SET_HIDDEN', '\\[\\e[8m\\]'), ('CLEAR_TERMINAL', '\\033c'), ('CLR_BKG_MAG', '\\033[45m'), ('RAW_CLR_BKG_CYN', '\\[\\e[46m\\]'), ('RAW_CLR_BKG_MAG', '\\[\\e[45m\\]'), ('RAW_CLR_BLU', '\\[\\e[34m\\]'), ('RAW_CLR_WHT', '\\[\\e[97m\\]'), ('SET_BLINK', '\\033[5m'), ('CLR_BKG_WHT', '\\033[107m'), ('RAW_SET_INVERT', '\\[\\e[7m\\]'), ('RAW_CLR_BLK', '\\[\\e[30m\\]'), ('PWD', '/home/root/march_31_ws/build/px4_msgs'), ('COLCON', '1'), ('RAW_RESET_BOLD', '\\[\\e[21m\\]'), ('HOME', '/home/root'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/mpa_to_ros2/install/voxl_mpa_to_ros2:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs:/opt/ros/foxy/mpa_to_ros2/install/px4_ros_com:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs:/opt/ros/foxy/mpa_to_ros2/install/image_common:/opt/ros/foxy/mpa_to_ros2/install/image_transport:/opt/ros/foxy/mpa_to_ros2/install/camera_info_manager:/opt/ros/foxy/mpa_to_ros2/install/camera_calibration_parsers:/opt/ros/foxy:/home/root/march_31_ws/install/starling_hover:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8'), ('RAW_CLR_BKG_RED', '\\[\\e[41m\\]'), ('NUM_MODEM_CONFIGS', '25'), ('CLR_MAG', '\\033[35m'), ('RESET_BOLD', '\\033[21m'), ('SSH_CLIENT', '192.168.1.2 56150 22'), ('CLR_WHT', '\\033[97m'), ('RAW_RESET_UNDERLINE', '\\[\\e[24m\\]'), ('CLR_BKG_LIT_BLU', '\\033[104m'), ('RAW_ENABLE_WRAP', '\\[\\e[?7h\\]'), ('RAW_CLR_RESET', '\\[\\e[39m\\]'), ('CLR_BKG_LIT_RED', '\\033[101m'), ('RAW_RESET_ALL', '\\[\\e[0m\\]'), ('RAW_RESET_DIM', '\\[\\e[22m\\]'), ('COLCON_PREFIX_PATH', '/home/root/march_31_ws/install:/opt/ros/foxy:/opt/ros/foxy/mpa_to_ros2/install'), ('RAW_CLR_LIT_CYN', '\\[\\e[96m\\]'), ('SET_UNDERLINE', '\\033[4m'), ('CLR_BKG_LIT_YLW', '\\033[103m'), ('RAW_CLR_BKG_BLU', '\\[\\e[44m\\]'), ('RAW_CLR_BKG_RESET', '\\[\\e[49m\\]'), ('RAW_CLR_DRK_GRY', '\\[\\e[90m\\]'), ('CLR_BKG_LIT_GRN', '\\033[102m'), ('TSAN_OPTIONS', 'ignore_noninstrumented_modules=1'), ('RAW_CLR_BKG_YLW', '\\[\\e[43m\\]'), ('CLR_BKG_LIT_GRY', '\\033[47m'), ('RAW_CLR_BKG_BLK', '\\[\\e[40m\\]'), ('SKU_FILENAME', '/data/modalai/sku.txt'), ('RAW_DISABLE_WRAP', '\\[\\e[?7l\\]'), ('CLR_BKG_YLW', '\\033[43m'), ('CLR_BKG_RESET', '\\033[49m'), ('RAW_CLR_BKG_GRN', '\\[\\e[42m\\]'), ('RAW_CLR_BKG_LIT_YLW', '\\[\\e[103m\\]'), ('ROS_VERSION', '2'), ('SSH_TTY', '/dev/pts/0'), ('MAIL', '/var/mail/root'), ('RESET_HIDDEN', '\\033[28m'), ('CLR_RESET', '\\033[39m'), ('RAW_CLR_LIT_YLW', '\\[\\e[93m\\]'), ('SET_STRIKETHROUGH', '\\033[9m'), ('ROS_LOCALHOST_ONLY', '0'), ('SHELL', '/bin/bash'), ('TERM', 'linux'), ('RAW_RESET_BLINK', '\\[\\e[25m\\]'), ('CLR_LIT_MAG', '\\033[95m'), ('ROS_PYTHON_VERSION', '3'), ('NUM_VOXL_FAMILIES', '20'), ('RAW_CLR_RED', '\\[\\e[31m\\]'), ('RAW_CLR_MAG', '\\[\\e[35m\\]'), ('SET_INVERT', '\\033[7m'), ('RAW_CLR_BKG_LIT_BLU', '\\[\\e[104m\\]'), ('RESET_BLINK', '\\033[25m'), ('RAW_CLR_BKG_DRK_GRY', '\\[\\e[100m\\]'), ('RAW_CLR_LIT_MAG', '\\[\\e[95m\\]'), ('CLR_YLW', '\\033[33m'), ('RESET_DIM', '\\033[22m'), ('CLR_BKG_DRK_GRY', '\\033[100m'), ('RAW_CLR_BKG_LIT_CYN', '\\[\\e[106m\\]'), ('NUM_VOXL_BOARDS', '6'), ('SHLVL', '2'), ('CLR_LIT_RED', '\\033[91m'), ('PYTHONPATH', '/home/root/march_31_ws/install/starling_hover/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_offboard_figure8/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/voxl_msgs/lib/python3.6/site-packages:/opt/ros/foxy/mpa_to_ros2/install/px4_msgs/lib/python3.6/site-packages:/opt/ros/foxy/lib/python3.6/site-packages'), ('SET_DIM', '\\033[2m'), ('CLR_BLU', '\\033[34m'), ('RAW_SET_BOLD', '\\[\\e[1m\\]'), ('RAW_SET_STRIKETHROUGH', '\\[\\e[8m\\]'), ('RAW_SET_BLINK', '\\[\\e[5m\\]'), ('LOGNAME', 'root'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('SET_BOLD', '\\033[1m'), ('CLR_BLK', '\\033[30m'), ('RAW_CLR_GRN', '\\[\\e[32m\\]'), ('CLR_CYN', '\\033[36m'), ('RAW_CLEAR_LINE', '\\[\\e[2K\\]'), ('RESET_INVERT', '\\033[27m'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games'), ('CLR_BKG_CYN', '\\033[46m'), ('RAW_CLR_LIT_GRY', '\\[\\e[37m\\]'), ('RAW_CLR_LIT_BLU', '\\[\\e[94m\\]'), ('FACTORY_FILENAME', '/data/modalai/factory_mode.txt'), ('CLR_DRK_GRY', '\\033[90m'), ('RAW_CLR_LIT_GRN', '\\[\\e[92m\\]'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/lib/pkgconfig'), ('CLR_LIT_CYN', '\\033[96m'), ('CLR_BKG_BLK', '\\033[40m'), ('RESET_ALL', '\\033[0m'), ('RAW_CLR_BKG_LIT_GRY', '\\[\\e[47m\\]'), ('RAW_SET_DIM', '\\[\\e[2m\\]'), ('RAW_CLR_BKG_LIT_GRN', '\\[\\e[102m\\]'), ('RAW_CLR_CYN', '\\[\\e[36m\\]'), ('CLR_BKG_BLU', '\\033[44m'), ('RESET_UNDERLINE', '\\033[24m'), ('RAW_RESET_INVERT', '\\[\\e[27m\\]'), ('ROS_DISTRO', 'foxy'), ('ROS_HOME', '/opt/ros/foxy'), ('_', '/usr/bin/env')]), 'shell': False}
+[10.414805] (-) TimerEvent: {}
+[10.516162] (-) TimerEvent: {}
+[10.617890] (-) TimerEvent: {}
+[10.719463] (-) TimerEvent: {}
+[10.821298] (-) TimerEvent: {}
+[10.923748] (-) TimerEvent: {}
+[11.055193] (-) TimerEvent: {}
+[11.156629] (-) TimerEvent: {}
+[11.257665] (-) TimerEvent: {}
+[11.300334] (px4_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.312523] (px4_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target px4_msgs__cpp\x1b[0m\n'}
+[11.358039] (-) TimerEvent: {}
+[11.404562] (px4_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.458317] (-) TimerEvent: {}
+[11.559449] (-) TimerEvent: {}
+[11.662965] (-) TimerEvent: {}
+[11.764077] (-) TimerEvent: {}
+[11.865210] (-) TimerEvent: {}
+[11.966387] (-) TimerEvent: {}
+[12.067730] (-) TimerEvent: {}
+[12.169337] (-) TimerEvent: {}
+[12.270639] (-) TimerEvent: {}
+[12.371991] (-) TimerEvent: {}
+[12.473439] (-) TimerEvent: {}
+[12.575059] (-) TimerEvent: {}
+[12.676554] (-) TimerEvent: {}
+[12.777780] (-) TimerEvent: {}
+[12.878950] (-) TimerEvent: {}
+[12.980897] (-) TimerEvent: {}
+[13.084487] (-) TimerEvent: {}
+[13.185459] (-) TimerEvent: {}
+[13.286584] (-) TimerEvent: {}
+[13.388042] (-) TimerEvent: {}
+[13.489292] (-) TimerEvent: {}
+[13.590733] (-) TimerEvent: {}
+[13.691948] (-) TimerEvent: {}
+[13.794498] (-) TimerEvent: {}
+[13.895758] (-) TimerEvent: {}
+[13.996852] (-) TimerEvent: {}
+[14.099077] (-) TimerEvent: {}
+[14.113123] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.120827] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 40, in <module>\n'}
+[14.133414] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.134353] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 40, in <module>\n'}
+[14.135043] (px4_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_generator_c/px4_msgs/msg/action_request.h'\n"}
+[14.136509] (px4_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[14.139046] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 35, in main\n'}
+[14.140779] (px4_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[14.142638] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 35, in main\n'}
+[14.144276] (px4_msgs) StderrLine: {'line': b'    args.generator_arguments_file,\n'}
+[14.145278] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_cpp/__init__.py", line 41, in generate_cpp\n'}
+[14.146308] (px4_msgs) StderrLine: {'line': b'    args.generator_arguments_file,\n'}
+[14.147134] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_generator_c/__init__.py", line 39, in generate_c\n'}
+[14.148002] (px4_msgs) StderrLine: {'line': b'    post_process_callback=prefix_with_bom_if_necessary)\n'}
+[14.148735] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 91, in generate_files\n'}
+[14.149356] (px4_msgs) StderrLine: {'line': b'    post_process_callback=prefix_with_bom_if_necessary)\n'}
+[14.150151] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 74, in generate_files\n'}
+[14.151654] (px4_msgs) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp'\n"}
+[14.152250] (px4_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[14.152582] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[14.153926] (px4_msgs) StderrLine: {'line': b'    post_process_callback=post_process_callback)\n'}
+[14.154321] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[14.154575] (px4_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[14.154787] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string\n'}
+[14.155021] (px4_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[14.155254] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[14.155496] (px4_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[14.155763] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[14.155963] (px4_msgs) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[14.156140] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/lark.py", line 658, in parse\n'}
+[14.156304] (px4_msgs) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[14.156463] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parser_frontends.py", line 104, in parse\n'}
+[14.156628] (px4_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[14.156782] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe\n'}
+[14.156934] (px4_msgs) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[14.157064] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley.py", line 305, in parse\n'}
+[14.157201] (px4_msgs) StderrLine: {'line': b'    return transformer.transform(solutions[0])\n'}
+[14.157325] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 401, in transform\n'}
+[14.157457] (px4_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[14.157569] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2421, in parse\n'}
+[14.157674] (px4_msgs) StderrLine: {'line': b'    self.visit(root)\n'}
+[14.157777] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 537, in visit\n'}
+[14.157899] (px4_msgs) StderrLine: {'line': b'    self.prioritizer.visit(root)\n'}
+[14.158003] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 361, in visit\n'}
+[14.158097] (px4_msgs) StderrLine: {'line': b'    next_node = vsni(current)\n'}
+[14.158190] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 478, in visit_symbol_node_in\n'}
+[14.158294] (px4_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[14.158400] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1547, in run\n'}
+[14.158500] (px4_msgs) StderrLine: {'line': b'    return iter(node.children)\n'}
+[14.158601] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/lark/parsers/earley_forest.py", line 91, in children\n'}
+[14.158706] (px4_msgs) StderrLine: {'line': b"    return sorted(self._children, key=attrgetter('sort_key'))\n"}
+[14.158802] (px4_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[14.158904] (px4_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[14.159038] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1631, in subrun\n'}
+[14.159164] (px4_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[14.159283] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1425, in run\n'}
+[14.159414] (px4_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[14.159596] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2596, in execute\n'}
+[14.159722] (px4_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[14.159847] (px4_msgs) StderrLine: {'line': b'  File "<string>", line 5, in <module>\n'}
+[14.159972] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/foxy/lib/python3.6/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[14.160144] (px4_msgs) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[14.161160] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2391, in string\n'}
+[14.161391] (px4_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[14.161563] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2401, in safe\n'}
+[14.161703] (px4_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[14.161845] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2417, in parse\n'}
+[14.161954] (px4_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[14.162052] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one\n'}
+[14.162148] (px4_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[14.162241] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1468, in scan\n'}
+[14.162340] (px4_msgs) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[14.162447] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1483, in subscan\n'}
+[14.162555] (px4_msgs) StderrLine: {'line': b'    token = scanner.one()\n'}
+[14.162669] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1984, in one\n'}
+[14.162782] (px4_msgs) StderrLine: {'line': b'    token.scan(self)\n'}
+[14.162909] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1456, in scan\n'}
+[14.163040] (px4_msgs) StderrLine: {'line': b"    i = scanner.complex('[', ']', 0)\n"}
+[14.163139] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1893, in complex\n'}
+[14.163238] (px4_msgs) StderrLine: {'line': b'    newQuote = self.check(i, quote)\n'}
+[14.163339] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1766, in check\n'}
+[14.163453] (px4_msgs) StderrLine: {'line': b'    if self[i] in \'\\\'\\"\':\n'}
+[14.163597] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 1682, in __getitem__\n'}
+[14.163712] (px4_msgs) StderrLine: {'line': b'    def __getitem__(self, index):\n'}
+[14.163828] (px4_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[14.163931] (px4_msgs) StderrLine: {'line': b'Exception ignored in: <bound method Interpreter.__del__ of <empy pseudomodule/interpreter at 0x7f8fad7390>>\n'}
+[14.164039] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.164147] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2094, in __del__\n'}
+[14.164254] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2157, in shutdown\n'}
+[14.164348] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2647, in finalize\n'}
+[14.164441] (px4_msgs) StderrLine: {'line': b'  File "/usr/local/lib/python3.6/dist-packages/em.py", line 2200, in push\n'}
+[14.164540] (px4_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[14.166279] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/px4_msgs__cpp.dir/build.make:1550: recipe for target 'rosidl_generator_cpp/px4_msgs/msg/action_request.hpp' failed\n"}
+[14.168064] (px4_msgs) StderrLine: {'line': b'make[2]: *** [rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Error 1\n'}
+[14.169381] (px4_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt\n'}
+[14.169536] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/Makefile2:175: recipe for target 'CMakeFiles/px4_msgs__cpp.dir/all' failed\n"}
+[14.169981] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:320: recipe for target 'rosidl_generator_c/px4_msgs/msg/action_request.h' failed\n"}
+[14.170100] (px4_msgs) StderrLine: {'line': b'make[2]: *** [rosidl_generator_c/px4_msgs/msg/action_request.h] Error 1\n'}
+[14.170484] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/Makefile2:394: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/all' failed\n"}
+[14.170591] (px4_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt\n'}
+[14.171337] (px4_msgs) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[14.171452] (px4_msgs) StderrLine: {'line': b'make: *** [all] Interrupt\n'}
+[14.184621] (px4_msgs) CommandEnded: {'returncode': -2}
+[14.199696] (-) TimerEvent: {}
+[14.300663] (-) TimerEvent: {}
+[14.401368] (-) TimerEvent: {}
+[14.502251] (-) TimerEvent: {}
+[14.603713] (-) TimerEvent: {}
+[14.704974] (-) TimerEvent: {}
+[14.806041] (-) TimerEvent: {}
+[14.907330] (-) TimerEvent: {}
+[15.033839] (-) TimerEvent: {}
+[15.134791] (-) TimerEvent: {}
+[15.237348] (-) TimerEvent: {}
+[15.338350] (-) TimerEvent: {}
+[15.440401] (-) TimerEvent: {}
+[15.542382] (-) TimerEvent: {}
+[15.644346] (-) TimerEvent: {}
+[15.745342] (-) TimerEvent: {}
+[15.847377] (-) TimerEvent: {}
+[15.948917] (-) TimerEvent: {}
+[16.050009] (-) TimerEvent: {}
+[16.153809] (-) TimerEvent: {}
+[16.257213] (-) TimerEvent: {}
+[16.359865] (-) TimerEvent: {}
+[16.461786] (-) TimerEvent: {}
+[16.563237] (-) TimerEvent: {}
+[16.664469] (-) TimerEvent: {}
+[16.765561] (-) TimerEvent: {}
+[16.866651] (-) TimerEvent: {}
+[16.968456] (-) TimerEvent: {}
+[17.069590] (-) TimerEvent: {}
+[17.170522] (-) TimerEvent: {}
+[17.272015] (-) TimerEvent: {}
+[17.373024] (-) TimerEvent: {}
+[17.474451] (-) TimerEvent: {}
+[17.575439] (-) TimerEvent: {}
+[17.677325] (-) TimerEvent: {}
+[17.778329] (-) TimerEvent: {}
+[17.880018] (-) TimerEvent: {}
+[17.981052] (-) TimerEvent: {}
+[18.082123] (-) TimerEvent: {}
+[18.183743] (-) TimerEvent: {}
+[18.284751] (-) TimerEvent: {}
+[18.385744] (-) TimerEvent: {}
+[18.487172] (-) TimerEvent: {}
+[18.589047] (-) TimerEvent: {}
+[18.695319] (-) TimerEvent: {}
+[18.796341] (-) TimerEvent: {}
+[18.901584] (-) TimerEvent: {}
+[19.004119] (-) TimerEvent: {}
+[19.105433] (-) TimerEvent: {}
+[19.206622] (-) TimerEvent: {}
+[19.309347] (-) TimerEvent: {}
+[19.411137] (-) TimerEvent: {}
+[19.477732] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[19.493933] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[19.494405] (-) EventReactorShutdown: {}

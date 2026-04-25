@@ -1,0 +1,3 @@
+[console_scripts]
+hover = starling_hover.hover:main
+

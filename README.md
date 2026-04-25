@@ -1,6 +1,6 @@
 # UAV_nav_via_MPPI
 
-This repository collects the code, workspace snapshots, and analysis scripts for the ECE 591 Software for Robotics project on UAV navigation with PX4, ROS 2, and MPPI-style trajectory tracking.
+This repository collects the code scripts for the ECE 591 Software for Robotics project.
 
 At a high level, the repo combines:
 
@@ -9,9 +9,6 @@ At a high level, the repo combines:
 - an MPPI-based figure-eight tracking prototype
 - local 3D obstacle-perception utilities for cropped point clouds and obstacle metrics
 - ROS 2 bag analysis utilities for comparing commanded and measured motion
-- archived ROS 2 workspace snapshots used during development
-
-This is currently organized as a working project repository rather than a polished release package, so it includes both active scripts and intermediate workspace snapshots.
 
 ## High-Level Purpose
 
@@ -121,20 +118,3 @@ This directory is best understood as a captured workspace state, not a minimal s
 Contains the current MPPI-oriented prototype:
 
 - `figure8_mppi_node.py` is a ROS 2 node that extends a PX4 figure-eight offboard example with a high-level MPPI tracker. PX4 still handles low-level control, while this node generates optimized short-horizon reference updates.
-
-## Workflow View
-
-The repository roughly breaks down into this progression:
-
-- baseline offboard control: `HoveringTest`, `april_18_ws`
-- structured flight experiments: `SquareFlightTest`, `PentagramFlightTest`
-- bag-based evaluation: `analyze_shape`
-- sampling-based control prototype: `temp_mppi`
-- perception support for obstacle-aware navigation: `3DVoxelMap_ws`
-- archived development environment snapshot: `march_31_ws`
-
-## Notes
-
-- The repository currently mixes source code, recorded-workflow utilities, and workspace snapshots.
-- Some directories are experimental and may depend on a specific PX4, ROS 2, and Starling/VOXL setup.
-- `march_31_ws` includes generated artifacts, so it is much larger and less tidy than the source-only folders.

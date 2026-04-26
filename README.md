@@ -5,7 +5,7 @@ This repository collects the code scripts for the ECE 591 Software for Robotics 
 At a high level, the repo combines:
 
 - offboard flight-control experiments for hovering and reference tracking
-- shape-flight data-collection scripts for square and pentagram trajectories
+- shape-flight data-collection scripts for square, figure 8, and pentagram trajectories
 - an MPPI-based figure-eight tracking prototype
 - local 3D obstacle-perception utilities for cropped point clouds and obstacle metrics
 - ROS 2 bag analysis utilities for comparing commanded and measured motion
@@ -17,7 +17,7 @@ The project goal is to explore how a UAV can be commanded in PX4 offboard mode w
 1. start from simple hovering and shape-tracing tests
 2. move toward richer trajectory tracking with MPPI-style optimization
 3. add local perception utilities that can support obstacle-aware navigation
-4. analyze recorded ROS 2 bag data to evaluate tracking behavior
+4. analyze recorded ROS 2 bag data to evaluate tracking behavior and determine performance
 
 ## Repository Organization
 
@@ -42,6 +42,8 @@ UAV_nav_via_MPPI/
 │   └── PentagramFlightTest.py
 ├── SquareFlightTest/
 │   └── SquareFlightTest.py
+├── Figure8FlightTest/
+│   └── Figure8FlightTest.py
 ├── analyze_shape/
 │   ├── analyze_shape_bag.py
 │   └── analyze_shape_bag.py.save
@@ -62,14 +64,14 @@ UAV_nav_via_MPPI/
 
 ## Directory Guide
 
-### `3DVoxelMap_ws`
+### `3DVoxelMap_ws` (Mopel)
 
 Experimental ROS 2 perception workspace content for local obstacle awareness.
 
 - `local_cloud_cropper.cpp` crops a global/aligned point cloud around the current UAV pose and republishes a local cloud.
 - `local_obstacle_metrics.cpp` computes simple distance metrics from the local cloud, such as nearest overall, front, left, right, up, and down obstacle distances.
 
-### `CPU_parellel_test`
+### `CPU_parellel_test` (Xinlei)
 
 Micro-benchmarks for rollout computation strategies that are relevant to MPPI-style control.
 
@@ -79,30 +81,34 @@ Micro-benchmarks for rollout computation strategies that are relevant to MPPI-st
 
 These scripts are useful for understanding the computational tradeoffs behind sampling-based control.
 
-### `HoveringTest`
+### `HoveringTest` (Xinlei)
 
 Early PX4 offboard test script for basic hover behavior and simple position commands. This is one of the simplest controller prototypes in the repo.
 
-### `PentagramFlightTest`
+### `PentagramFlightTest` (Mopel)
 
 ROS 2 offboard flight script that commands a UAV to trace a pentagram trajectory and records ROS bag data for later analysis.
 
-### `SquareFlightTest`
+### `SquareFlightTest` (Mopel)
 
-ROS 2 offboard flight script that commands a UAV to trace a square trajectory while recording reference and vehicle-state data to rosbag.
+ROS 2 offboard flight script that commands a UAV to trace a square trajectory while recording reference and vehicle-state data to rosbag for analysis.
 
-### `analyze_shape`
+### `Figure8FlightTest` (Mopel)
+
+ROS 2 offboard flight script that commands a UAV to trace a Figure8 trajectory while recording reference and vehicle-state data to rosbag for analysis.
+
+### `analyze_shape` (Mopel)
 
 Offline analysis utilities for recorded ROS 2 bag files.
 
 - `analyze_shape_bag.py` reads commanded setpoints and measured PX4 state topics from a bag, converts them into aligned arrays, and supports plotting / comparison workflows.
 - `analyze_shape_bag.py.save` is a backup copy of the same script.
 
-### `april_18_ws`
+### `april_18_ws` (Xinlei)
 
 A later standalone hover / offboard experiment script. It is similar in spirit to `HoveringTest`, but represents a separate iteration of controller testing.
 
-### `march_31_ws`
+### `march_31_ws` (Xinlei)
 
 Archived ROS 2 workspace snapshot from an earlier development stage.
 
@@ -113,7 +119,7 @@ Archived ROS 2 workspace snapshot from an earlier development stage.
 
 This directory is best understood as a captured workspace state, not a minimal source-only package.
 
-### `temp_mppi`
+### `temp_mppi` (Xinlei)
 
 Contains the current MPPI-oriented prototype:
 
